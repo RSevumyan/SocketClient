@@ -34,5 +34,6 @@ int main(int argc, char *argv[]) {
             close(socketfd);
             exit(EXIT_SUCCESS);
         }
+        close(socketfd);
     }
 }
